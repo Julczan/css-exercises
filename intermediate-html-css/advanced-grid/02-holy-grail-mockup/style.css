@@ -26,6 +26,9 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
 }
+.logo {
+  justify-self: start;
+}
 
 .menu ul,
 .menu li {
@@ -51,6 +54,10 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  display: grid;
+}
+.photo {
+  align-items: center;
 }
 
 .sidebar .side-content {
